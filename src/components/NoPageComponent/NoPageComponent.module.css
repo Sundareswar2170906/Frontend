@@ -1,0 +1,17 @@
+.Component{
+    height: 500px;
+    background-color: white;
+    padding: 100px 0px 0px 0px;
+}
+
+.Component>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.Component>div>a{
+    color: rgba(46, 7, 203, 0.697);
+}

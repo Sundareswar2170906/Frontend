@@ -1,0 +1,30 @@
+.Menu{
+    height: 50px;
+}
+
+.Menu>a{
+    text-decoration: none;
+    color: white;
+}
+
+.MenuHeader{
+    background-color: rgb(3, 3, 72);
+    padding: 0px 50px 0px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-top: solid white 1px;
+    padding-top: 15px;
+}
+
+@media (max-width:600px) {
+    .MenuHeader{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:400px) {
+    .MenuHeader{
+        grid-template-columns: 1fr 1fr;
+        font-size: small;
+    }
+}

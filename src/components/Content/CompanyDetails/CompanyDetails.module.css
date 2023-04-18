@@ -1,0 +1,29 @@
+.details{
+    background-image: linear-gradient(to right, #0f0c29, #120e3f, #24243e);
+    padding: 10px 0px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+    border-radius: 10px;
+}
+
+.details>div{
+    margin : 20px 0px;
+    font-size: large;
+}
+
+h5{
+    font-size: large;
+}
+
+
+@media (max-width:600px) {
+.details>div{
+    margin : 10px 0px;
+    font-size: medium;
+}
+
+h5{
+    font-size: medium;
+}
+}

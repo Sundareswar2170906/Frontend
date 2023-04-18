@@ -1,0 +1,32 @@
+.header{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    
+}
+
+.header>div{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    padding: 25px 0px;
+}
+
+
+@media (max-width:600px) {
+    .header>div{
+        font-size: medium;
+    }
+
+    .header{
+        height: 70px;
+    }
+}
+
+
+.ImagePos{
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100px;
+}

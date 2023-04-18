@@ -1,0 +1,21 @@
+.footer{
+    background-color: rgb(13, 24, 34);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer>div{
+    padding: 20px;
+}
+
+.footer>div>div{
+    padding: 10px;
+}
+
+.footer>div>div:hover{
+    cursor: pointer;
+    color: rgb(170, 170, 170);
+}

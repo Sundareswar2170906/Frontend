@@ -1,0 +1,43 @@
+.Contact{
+    min-height: 400px;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    padding: 100px;
+}
+
+.Elon{
+    height: 200px;
+}
+
+.About{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.AboutImg{
+    height: 400px;
+}
+
+@media (max-width:600px) {
+    .Contact{
+        padding: 50px;
+        font-size: medium;
+    }
+
+    .About{
+        grid-template-columns: 1f;
+    }
+
+    .AboutImg{
+        height: 300px;
+    }
+}
+
+@media (max-width:400px) {
+    .Contact{
+        padding: 20px;
+        font-size: small;
+    }
+}
